@@ -10,6 +10,8 @@ import VillageForm from './pages/villageform';
 import ErrorPage from './pages/error404';
 import Ongoingdrives from './pages/ongoingdrives';
 import LandingPage from './pages/index';
+import SignIn from './pages/sign-in/pages';
+
 const router = createBrowserRouter([
   {
     path : "/",
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
   {
     path : "*",
     element : <ErrorPage />
+  },
+  {
+    path:"/signIn",
+    element: <SignIn />
   }
 ]);
 
