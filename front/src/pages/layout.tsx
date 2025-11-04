@@ -67,7 +67,7 @@ export default function Layout() {
                 </SidebarMenuItem>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href="/drives">
+                    <a href="/ongoing-drives">
                       <Settings />
                       <span>Ongoing Drives</span>
                     </a>
