@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card";
 import { useState } from "react";
 
-export default function Cardcollector() {
+export default function Ongoingdrives() {
   const [cards] = useState([
     { Title: "Covid-19", Description: "Covishield", Footer: "Vaccine A", Action: "alert('Card clicked')" }
   ]);

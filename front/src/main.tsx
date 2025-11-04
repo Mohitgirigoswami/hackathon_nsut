@@ -8,6 +8,7 @@ import { SidebarProvider } from "@/components/ui/sidebar"
 import DriveForm from './pages/driveform';
 import VillageForm from './pages/villageform';
 import ErrorPage from './pages/error404';
+import Ongoingdrives from './pages/ongoingdrives';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,10 @@ const router = createBrowserRouter([
         path: "/add-village",
         element: <VillageForm />
       },
-     
+      {
+        path:"/ongoing-drives",
+        element: <Ongoingdrives />
+      }
     ],
   },
  
