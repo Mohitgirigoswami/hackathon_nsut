@@ -9,8 +9,13 @@ import DriveForm from './pages/driveform';
 import VillageForm from './pages/villageform';
 import ErrorPage from './pages/error404';
 import Ongoingdrives from './pages/ongoingdrives';
-
+import LandingPage from './pages/index';
 const router = createBrowserRouter([
+  {
+    path : "/",
+    element : <LandingPage />
+  },
+  
   {
     path: "/",
     element: <Layout />,
