@@ -11,18 +11,22 @@ import ErrorPage from './pages/error404';
 import Ongoingdrives from './pages/ongoingdrives';
 import LandingPage from './pages/index';
 import SignIn from './pages/sign-in/pages';
+import Dashboard from './pages/dashboard';
 
 const router = createBrowserRouter([
   {
-    path : "/",
-    element : <LandingPage />
+    path: "/",
+    element: <LandingPage />
   },
-  
+
   {
     path: "/",
     element: <Layout />,
     children: [
-     
+      {
+        path: "/dashboard",
+        element: <Dashboard />
+      },
       {
         path: "/add-drive",
         element: <DriveForm />
@@ -32,18 +36,18 @@ const router = createBrowserRouter([
         element: <VillageForm />
       },
       {
-        path:"/ongoing-drives",
+        path: "/ongoing-drives",
         element: <Ongoingdrives />
       }
     ],
   },
- 
+
   {
-    path : "*",
-    element : <ErrorPage />
+    path: "*",
+    element: <ErrorPage />
   },
   {
-    path:"/signIn",
+    path: "/signIn",
     element: <SignIn />
   }
 ]);

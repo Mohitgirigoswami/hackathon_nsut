@@ -43,7 +43,7 @@ export default function Layout() {
               <SidebarMenu>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href="/">
+                    <a href="/dashboard">
                       <Home />
                       <span>Home</span>
                     </a>
