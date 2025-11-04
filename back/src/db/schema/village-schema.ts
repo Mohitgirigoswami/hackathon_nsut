@@ -1,4 +1,4 @@
-import { pgTable, text, timestamp, integer, numeric, boolean } from "drizzle-orm/pg-core";
+import { pgTable, text, timestamp, integer, numeric } from "drizzle-orm/pg-core";
 import namespacedId from "@/lib/utils";
 import { user } from "./auth-schema";
 
