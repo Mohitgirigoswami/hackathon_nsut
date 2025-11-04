@@ -11,8 +11,18 @@ import { useState } from "react";
 
 export default function Ongoingdrives() {
   const [cards] = useState([
-    { Title: "Covid-19", Description: "Covishield", Footer: "Vaccine A", Action: "alert('Card clicked')" }
-  ]);
+  { Title: "Hepatitis B", Description: "Engerix-B", Footer: "Vaccine C", Action: "alert('Card clicked')" },
+  { Title: "Tetanus", Description: "TT Injection", Footer: "Vaccine D", Action: "alert('Card clicked')" },
+  { Title: "Influenza", Description: "FluShield", Footer: "Vaccine E", Action: "alert('Card clicked')" },
+  { Title: "Measles", Description: "Rouvax", Footer: "Vaccine F", Action: "alert('Card clicked')" },
+  { Title: "Mumps", Description: "MMR Vaccine", Footer: "Vaccine G", Action: "alert('Card clicked')" },
+  { Title: "Rubella", Description: "R-Vax", Footer: "Vaccine H", Action: "alert('Card clicked')" },
+  { Title: "Chickenpox", Description: "Varilrix", Footer: "Vaccine I", Action: "alert('Card clicked')" },
+  { Title: "HPV", Description: "Cervarix", Footer: "Vaccine J", Action: "alert('Card clicked')" },
+  { Title: "Diphtheria", Description: "DTP Vaccine", Footer: "Vaccine K", Action: "alert('Card clicked')" },
+  { Title: "Typhoid", Description: "Typhim Vi", Footer: "Vaccine L", Action: "alert('Card clicked')" }
+]
+);
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
