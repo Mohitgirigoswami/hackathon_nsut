@@ -49,14 +49,12 @@ router.post("/", async (req, res) => {
       userId
     } = req.body;
 
-    // Validate required fields
     if (!name || !district || !state || !population || !userId) {
       return res.status(400).json({
         error: "Missing required fields: name, district, state, population, userId"
       });
     }
 
-    // Insert village data
     const villageData: any = {
       name,
       district,
@@ -92,10 +90,8 @@ router.put("/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const updateData = req.body;
-    // Remove id from updateData if present
     delete updateData.id;
 
-    // Convert population to int if present
     if (updateData.population) updateData.population = parseInt(updateData.population);
     if (updateData.areaSqKm) updateData.areaSqKm = parseFloat(updateData.areaSqKm);
     if (updateData.latitude) updateData.latitude = parseFloat(updateData.latitude);
