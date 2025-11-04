@@ -12,14 +12,11 @@ import Ongoingdrives from './pages/ongoingdrives';
 import LandingPage from './pages/index';
 import SignIn from './pages/sign-in/pages';
 import Dashboard from './pages/dashboard';
-<<<<<<< Updated upstream
 import SignUp from './pages/sign-up/pages';
-=======
 import Villages from './pages/villages';
 import Drives from './pages/drives';
 import Beneficiaries from './pages/beneficiaries';
 import Vaccines from './pages/vaccines';
->>>>>>> Stashed changes
 
 const router = createBrowserRouter([
   {

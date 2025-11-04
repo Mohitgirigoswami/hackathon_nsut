@@ -1,4 +1,3 @@
-import type { StringToBoolean } from "class-variance-authority/types";
 import React from "react";
 import { useForm,type SubmitHandler } from "react-hook-form";
 
@@ -19,12 +18,12 @@ type DriveFormData = {
   state: string;
   district: string;
   VillageName: string;
-  Pincode : String;
-  population : String;
-  total_adult : String;
-  total_child : String;
-  Longitude : String;
-  Latitude : String; 
+  Pincode : string;
+  population : string;
+  total_adult : string;
+  total_child : string;
+  Longitude : string;
+  Latitude : string;
 };
 
 const VillageForm: React.FC = () => {
