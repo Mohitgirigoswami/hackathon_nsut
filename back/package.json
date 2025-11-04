@@ -11,6 +11,9 @@
   "peerDependencies": {
     "typescript": "^5"
   },
+	"scripts": {
+		"dev": "bun run --watch src/index.ts"
+	},
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
     "@paralleldrive/cuid2": "^3.0.4",

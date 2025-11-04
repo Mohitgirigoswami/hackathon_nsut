@@ -65,14 +65,46 @@ export default function Layout() {
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
-                <SidebarMenuItem>
-                  <SidebarMenuButton asChild>
-                    <a href="/ongoing-drives">
-                      <Settings />
-                      <span>Ongoing Drives</span>
-                    </a>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
+                 <SidebarMenuItem>
+                   <SidebarMenuButton asChild>
+                     <a href="/ongoing-drives">
+                       <Settings />
+                       <span>Ongoing Drives</span>
+                     </a>
+                   </SidebarMenuButton>
+                 </SidebarMenuItem>
+                 <SidebarMenuItem>
+                   <SidebarMenuButton asChild>
+                     <a href="/villages">
+                       <Settings />
+                       <span>Villages</span>
+                     </a>
+                   </SidebarMenuButton>
+                 </SidebarMenuItem>
+                 <SidebarMenuItem>
+                   <SidebarMenuButton asChild>
+                     <a href="/drives">
+                       <Settings />
+                       <span>Drives</span>
+                     </a>
+                   </SidebarMenuButton>
+                 </SidebarMenuItem>
+                 <SidebarMenuItem>
+                   <SidebarMenuButton asChild>
+                     <a href="/beneficiaries">
+                       <Settings />
+                       <span>Beneficiaries</span>
+                     </a>
+                   </SidebarMenuButton>
+                 </SidebarMenuItem>
+                 <SidebarMenuItem>
+                   <SidebarMenuButton asChild>
+                     <a href="/vaccines">
+                       <Settings />
+                       <span>Vaccines</span>
+                     </a>
+                   </SidebarMenuButton>
+                 </SidebarMenuItem>
               </SidebarMenu>
             </SidebarGroupContent>
           </SidebarGroup>
