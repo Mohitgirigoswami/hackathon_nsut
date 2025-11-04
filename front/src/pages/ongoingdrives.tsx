@@ -11,16 +11,15 @@ import { useState } from "react";
 
 export default function Ongoingdrives() {
   const [cards] = useState([
-  { Title: "Hepatitis B", Description: "Engerix-B", Footer: "Vaccine C", Action: "alert('Card clicked')" },
-  { Title: "Tetanus", Description: "TT Injection", Footer: "Vaccine D", Action: "alert('Card clicked')" },
-  { Title: "Influenza", Description: "FluShield", Footer: "Vaccine E", Action: "alert('Card clicked')" },
-  { Title: "Measles", Description: "Rouvax", Footer: "Vaccine F", Action: "alert('Card clicked')" },
-  { Title: "Mumps", Description: "MMR Vaccine", Footer: "Vaccine G", Action: "alert('Card clicked')" },
-  { Title: "Rubella", Description: "R-Vax", Footer: "Vaccine H", Action: "alert('Card clicked')" },
-  { Title: "Chickenpox", Description: "Varilrix", Footer: "Vaccine I", Action: "alert('Card clicked')" },
-  { Title: "HPV", Description: "Cervarix", Footer: "Vaccine J", Action: "alert('Card clicked')" },
-  { Title: "Diphtheria", Description: "DTP Vaccine", Footer: "Vaccine K", Action: "alert('Card clicked')" },
-  { Title: "Typhoid", Description: "Typhim Vi", Footer: "Vaccine L", Action: "alert('Card clicked')" }
+  { Title: "Hepatitis B", Description: "Engerix-B", Footer: "Vaccine C", Action: "alert('Card clicked')",id:'1' },
+  { Title: "Tetanus", Description: "TT Injection", Footer: "Vaccine D", Action: "alert('Card clicked')",id:'2' },
+  { Title: "Influenza", Description: "FluShield", Footer: "Vaccine E", Action: "alert('Card clicked')",id:'3' },
+  { Title: "Measles", Description: "Rouvax", Footer: "Vaccine F", Action: "alert('Card clicked')",id:'4' },
+  { Title: "Mumps", Description: "MMR Vaccine", Footer: "Vaccine G", Action: "alert('Card clicked')",id:'5' },
+  { Title: "Rubella", Description: "R-Vax", Footer: "Vaccine H", Action: "alert('Card clicked')",id:'6' },
+  { Title: "Chickenpox", Description: "Varilrix", Footer: "Vaccine I", Action: "alert('Card clicked')",id:'7' },
+  { Title: "HPV", Description: "Cervarix", Footer: "Vaccine J", Action: "alert('Card clicked')",id:'8' },
+  { Title: "Diphtheria", Description: "DTP Vaccine", Footer: "Vaccine K", Action: "alert('Card clicked')",id:'9' },
 ]
 );
 
