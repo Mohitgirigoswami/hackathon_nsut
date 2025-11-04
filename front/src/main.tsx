@@ -9,6 +9,7 @@ import DriveForm from './pages/driveform';
 import VillageForm from './pages/villageform';
 import ErrorPage from './pages/error404';
 import Ongoingdrives from './pages/ongoingdrives';
+import SignIn from './pages/sign-in/pages';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path : "*",
     element : <ErrorPage />
+  },
+  {
+    path:"/signIn",
+    element: <SignIn />
   }
 ]);
 
